@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADLERS (Vulnerable Website)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ADLERS</h1>
+    </header>
+
+    <nav>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+    </nav>
+
+    <main>
+        <form id="search-form">
+            <input type="text" id="search-query" placeholder="Search products">
+            <button type="submit">Search</button>
+        </form>
+        <div id="search-results"></div>
+
+        <div class="container">
+            <section class="collection" id="men-section">
+                <h2>Men's Collection</h2>
+                <img src="clue.jpg" alt="Men's Collection" width="300" height="300">
+            </section>
+
+            <section class="collection" id="women-section">
+                <h2>Women's Collection</h2>
+                <img src="hidden.jpg" alt="Women's Collection" width="300" height="300">
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

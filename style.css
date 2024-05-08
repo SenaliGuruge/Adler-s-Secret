@@ -1,0 +1,118 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font for the body text */
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+    background-color: #f2e9e4; /* New soft vintage background color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font for the ADLERS heading */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px; 
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 10px 0;
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font for navigation links */
+}
+
+nav a:hover {
+    color: #ff3366;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Previous CSS code remains unchanged */
+
+/* Previous CSS code remains unchanged */
+
+#search-results {
+    padding: 20px;
+}
+
+#search-results h2 {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff; /* Changing the text color to white for "Search Results for" part */
+}
+
+#search-results p {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff; /* Changing the text color to white for search results */
+}
+
+#search-results a {
+    color: #ff3366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#search-results a:hover {
+    text-decoration: underline;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-query {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+#search-query:focus {
+    outline: none;
+    border-color: #ff3366;
+}
+
+.collection {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.collection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font headings */
+}
+
+.collection img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
